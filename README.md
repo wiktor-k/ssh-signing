@@ -14,3 +14,13 @@ Adding key to the file:
 ```sh
 ssh-add -L | sed -e "s/^/$(git config user.email) /g" >> allowed_signers
 ```
+
+Other config variables you may want to enable:
+
+```sh
+# show signatures by default when doing "git log"
+git config log.showSignature true
+
+# verify signatures on "git pull"
+git config merge.verifySignatures true
+```
