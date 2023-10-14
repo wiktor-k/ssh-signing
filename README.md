@@ -5,7 +5,7 @@ After cloning initialize the repository:
 ```sh
 git config gpg.format ssh
 git config gpg.ssh.allowedSignersFile allowed_signers
-git config user.signingKey "$(ssh-add -L | head -n 1)"
+git config user.signingKey "key::$(ssh-add -L | head -n 1)"
 git config commit.gpgsign true
 ```
 
