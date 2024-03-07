@@ -1,4 +1,7 @@
+# Allowed signers file
+## Wiktor
 wiktor@metacode.biz ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQv2RJtGurpNLWyiGz9sSuX8agzV98gHW2ZG/7vFkIQrPlaYsd/OH1z7BZNeCHs5vcoq6c2Eh5s6a0vcH4n181TKfjgpbq4t7OFNygWBJplXIZvIlsY//UCxfp5ZdKWJfrYUu/0HeEv5r/7ZcpwF/omC97aM0ipmAeQ8QEGLfgGW427ATa/r2SFwK/4h0C+BTUnMj/YC/4KI/MPWA6x7RdAw+RbVjZd4kT2ZPXcUdruSqDQ4vSP/b8gERv1IjWUn+HHteRJgR2SwNmsuuT/Ko3FRFfXxXPV2yMEvUY2+DoU781VhZJl0aqpW5bIhlK5VE5rGvmMuE5S7XwYDM9V0Wl /usr/lib/pkcs11/libtpm2_pkcs11.so.0.0.0
 wiktor@metacode.biz ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBO3Pw0e4zv7ZkciWKUCSHkRQJw70nIDPkvLGD0MzJ4uXJMp2kSgANNJDfhpabQrIAeNkXAivxWIrl0mrO58e/lUuUE1Z6YaM7duoI4CfKVE0rZLP45tNyFH9LQzcvz03kA== /usr/lib/pkcs11/libtpm2_pkcs11.so.0.0.0
+## Old, expired keys
 wiktor@metacode.biz valid-before="20230907" ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILHCXBJYlPPkrt2WYyP3SZoMx43lDBB5QALjE762EQlc 
 wiktor@metacode.biz ecdsa-sha2-nistp384 AAAAE2VjZHNhLXNoYTItbmlzdHAzODQAAAAIbmlzdHAzODQAAABhBButvOpt5qRRPazVFSfV6a4A33eXtlVkXL7x4PHr2zryw1wGb7tzpuSTZKabJaTlSZP/Jpva2caGNNtoNbXVDisOsiS4/wSa3AJ2/PmxOcpv/lZcpCynKq4zDeogo+FxrA== /usr/lib/pkcs11/libtpm2_pkcs11.so.0.0.0
